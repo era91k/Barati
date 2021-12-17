@@ -1,0 +1,191 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v7.0.29,
+* Autoprefixer: v9.7.6
+* Browsers: last 4 version
+*/
+
+	@import url('https://fonts.googleapis.com/css2?family=Merienda+One&family=Noto+Sans&family=Reggae+One&family=Share:wght@700&display=swap');
+	@import url('https://fonts.googleapis.com/css2?family=Amaranth:wght@700&family=Maven+Pro:wght@800&display=swap');
+	@import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap');
+
+
+
+
+	/* FOOTER */
+	footer {
+		padding: 6rem 0;
+		background-color:rgba(241, 242, 246,1.0);
+		color: black;
+		text-align: left;
+		margin-top:100px;
+		font-family:'Noto Sans', sans-serif;
+		font-size:16px;
+	}
+	
+	.logocomplet{
+		height:200px;
+		width:auto;
+	}
+
+	footer .links {
+		padding-bottom: 1rem;
+		border-bottom: 1px solid #a4b0be;
+		max-width:1270px;
+		margin-left:auto;
+		margin-right:auto;
+	}
+	
+	footer > div {
+		display: -webkit-box;
+		display: -ms-flexbox;
+		display: flex;
+		margin: 0 4rem;
+	}
+
+	footer .links div {
+		display: -webkit-box;
+		display: -ms-flexbox;
+		display: flex;
+		-webkit-box-orient: vertical;
+		-webkit-box-direction: normal;
+		    -ms-flex-direction: column;
+		        flex-direction: column;
+	}
+
+	
+	footer .links div a {
+		margin-bottom: 1rem;
+		color: rgba(87, 96, 111,1.0);
+	}
+	
+	footer .scategorie{
+		font-weight: bold;
+		font-family:'Maven Pro', sans-serif;
+		font-size:20px;
+		color:#3d3d3d!important;
+	}
+	
+	footer .links div a .fas{
+		width:12px;
+		height:auto;
+		padding-right:25px;
+		color: #3d3d3d;
+	}
+		
+
+	footer .more {
+		display: -webkit-box;
+		display: -ms-flexbox;
+		display: flex;
+		-webkit-box-orient: horizontal;
+		-webkit-box-direction: normal;
+		    -ms-flex-direction: row;
+		        flex-direction: row;
+		margin-top: 2rem;
+		max-width:1270px;
+		margin-left:auto;
+		margin-right:auto;
+	}
+
+	footer > div {
+		display: -webkit-box;
+		display: -ms-flexbox;
+		display: flex;
+		margin: 0 4rem;
+	}
+
+	footer .more p, footer .more p a{
+		text-align: right;
+		margin: 0;
+		-webkit-box-flex: 1;
+		    -ms-flex: 1;
+		        flex: 1;
+		color:#576574;
+	}
+
+	footer .more .rsociaux a {
+		margin-right: 1rem;
+	}
+	
+	.fab{
+		color:#3d3d3d!important;
+		font-size:25px;
+	}
+	
+	@media (max-width:1280px){ /*------- ECRANS 13 POUCES --------*/
+		footer .links{
+			max-width:1000px;
+		}
+		
+		footer .more{
+			max-width:1000px;
+		}
+	}
+	
+	@media (min-width:1700px){
+		footer .links{
+			max-width:1500px;
+		}
+		
+		footer .more{
+			max-width:1500px;
+		}
+	}
+	
+	.loginsta{
+		width:25px;
+		height:28px;
+	}
+	
+	@media (max-width: 768px) {
+		footer{
+			width:100%;
+			display:-webkit-box;
+			display:-ms-flexbox;
+			display:flex;
+			-webkit-box-orient:vertical;
+			-webkit-box-direction:normal;
+			    -ms-flex-direction:column;
+			        flex-direction:column;
+		}
+		
+		footer .links{
+			-webkit-box-orient:vertical;
+			-webkit-box-direction:normal;
+			    -ms-flex-direction:column;
+			        flex-direction:column;
+			text-align:center;
+			padding: 0px 20px 0px 20px;
+		}
+		
+		footer .links div{
+			margin-bottom:50px;
+		}
+		
+		footer .more{
+			display:-webkit-box;
+			display:-ms-flexbox;
+			display:flex;
+			-webkit-box-orient:vertical;
+			-webkit-box-direction:normal;
+			    -ms-flex-direction:column;
+			        flex-direction:column;
+		}
+		
+		footer .more .rsociaux{
+			margin-left:auto;
+			margin-right:auto;
+			margin-bottom:20px;
+		}
+		
+		.fab{
+			font-size:18px;
+		}
+	}
+	
+
+	
+	
+
+	
